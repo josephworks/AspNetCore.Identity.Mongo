@@ -7,11 +7,11 @@
 		<StartupObject />
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>Mongo based identity framework for Asp.Net Core</Description>
-		<Copyright>Matteo Fabbri 2018</Copyright>
+		<Copyright>Matteo Fabbri 2022</Copyright>
 		<RepositoryUrl>https://github.com/matteofabbri/AspNetCore.Identity.Mongo</RepositoryUrl>
 		<PackageTags>asp core identity mongo framework aspnetcore mongodb dotnetcore netcore</PackageTags>
 		<PackageId>AspNetCore.Identity.Mongo</PackageId>
-		<Authors>Matteo Fabbri</Authors>
+		<Authors>Matteo Fabbri, JosephWorks</Authors>
 		<Company />
 		<Product>AspNetCore.Identity.Mongo</Product>
 		<Version>8.3.2</Version>
@@ -23,6 +23,7 @@
 		<RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
 		<RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageVersion>8.4.0</PackageVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
