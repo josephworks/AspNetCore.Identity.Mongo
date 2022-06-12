@@ -27,11 +27,15 @@ namespace SampleSite.Controllers
             _userUserCollection = userCollection;
         }
 
-        public async Task<ActionResult> Index()
+        public Task<ActionResult> Index()
         {
-            return View(_userManager.Users);
+            return Task.FromResult<ActionResult>(View(_userManager.Users));
         }
 
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
         public async Task<ActionResult> AddToRole(string roleName, string userName)
         {
